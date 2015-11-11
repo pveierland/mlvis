@@ -52,6 +52,18 @@ with gzip.GzipFile('mlvis.json.gz', 'wb') as json_output_file:
 
 See: http://deeplearning.net/tutorial/mlp.html
 
+# Hacking
+
+The input image is a multiple of the network input dimensions as given by the following constant:
+
+https://github.com/pveierland/mlvis/blob/master/MLVIS/app/src/main/java/net/veierland/mlvis/mlp/MultilayerPerceptronVisualizer.java#L42
+
+A very basic filter is used to enchance image features. Tweaking this may be necessary on different hardware. Hopefully a filter based on Otsu's method or similarly will be implemented soon.
+
+https://github.com/pveierland/mlvis/blob/master/MLVIS/app/src/main/java/net/veierland/mlvis/mlp/MultilayerPerceptronVisualizer.java#L197
+
+https://en.wikipedia.org/wiki/Otsu's_method
+
 # Contribute
 
 This is a toy. Clear bugs will be fixed when reported. Feature requests are accepted in the form of complete patches.
