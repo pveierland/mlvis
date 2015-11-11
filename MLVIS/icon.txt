@@ -1,0 +1,1 @@
+https://romannurik.github.io/AndroidAssetStudio/icons-launcher.html#foreground.type=text&foreground.space.trim=1&foreground.space.pad=0.35&foreground.text.text=MLVIS&foreground.text.font=&foreColor=fff%2C100&crop=0&backgroundShape=circle&backColor=4ca3af%2C100&effects=none
