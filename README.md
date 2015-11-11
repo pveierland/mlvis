@@ -2,7 +2,7 @@
 
 MLVIS is an Android app which lets you test arbitrary Multilayer Perceptron Artificial Neural Networks with camera input. Network dimensions and weights are describes in a JSON file (optionally gzipped) which is parsed and evaluated by the app. Currently the app supports the activation functions `sigmoid`, `tanh`, `relu` and `softmax`.
 
-https://en.wikipedia.org/wiki/Multilayer_perceptron
+* https://en.wikipedia.org/wiki/Multilayer_perceptron
 
 ![MNIST trained MLP](screenshot.jpg)
 
@@ -58,13 +58,13 @@ See: http://deeplearning.net/tutorial/mlp.html
 
 The input image is a multiple of the network input dimensions as given by the following constant:
 
-https://github.com/pveierland/mlvis/blob/master/MLVIS/app/src/main/java/net/veierland/mlvis/mlp/MultilayerPerceptronVisualizer.java#L42
+* https://github.com/pveierland/mlvis/blob/master/MLVIS/app/src/main/java/net/veierland/mlvis/mlp/MultilayerPerceptronVisualizer.java#L42
 
 A very basic filter is used to enchance image features. Tweaking this may be necessary on different hardware. Hopefully a filter based on Otsu's method or similarly will be implemented soon.
 
-https://github.com/pveierland/mlvis/blob/master/MLVIS/app/src/main/java/net/veierland/mlvis/mlp/MultilayerPerceptronVisualizer.java#L197
+* https://github.com/pveierland/mlvis/blob/master/MLVIS/app/src/main/java/net/veierland/mlvis/mlp/MultilayerPerceptronVisualizer.java#L197
 
-https://en.wikipedia.org/wiki/Otsu's_method
+* https://en.wikipedia.org/wiki/Otsu's_method
 
 # Contribute
 
@@ -72,5 +72,4 @@ This is a toy. Clear bugs will be fixed when reported. Feature requests are acce
 
 # License
 
-http://www.wtfpl.net
-
+* http://www.wtfpl.net
