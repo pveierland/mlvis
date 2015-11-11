@@ -2,6 +2,8 @@
 
 MLVIS is an Android app which lets you test arbitrary Multilayer Perceptron Artificial Neural Networks with camera input. Network dimensions and weights are describes in a JSON file (optionally gzipped) which is parsed and evaluated by the app. Currently the app supports the activation functions `sigmoid`, `tanh`, `relu` and `softmax`.
 
+https://en.wikipedia.org/wiki/Multilayer_perceptron
+
 ![MNIST trained MLP](screenshot.jpg)
 
 # Demo
